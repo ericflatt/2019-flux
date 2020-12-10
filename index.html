@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150422788-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-150422788-1');
+</script>
+
+    <title>SCAD FLUX - UX Design Club</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="SCAD FLUX - UX Design Club">
+    <meta name="keywords" content="scad,flux,scad flux,ux design,ux,design,ux portfolios,portfolios,design school">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/main.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<!--
+    /$$$$$$$$ /$$       /$$   /$$ /$$   /$$
+    | $$_____/| $$      | $$  | $$| $$  / $$
+    | $$      | $$      | $$  | $$|  $$/ $$/
+    | $$$$$   | $$      | $$  | $$ \  $$$$/
+    | $$__/   | $$      | $$  | $$  >$$  $$
+    | $$      | $$      | $$  | $$ /$$/\  $$
+    | $$      | $$$$$$$$|  $$$$$$/| $$  \ $$
+    |__/      |________/ \______/ |__/  |__/
+                                            -->
+
+
+<!-- Responsive Nav -->
+
+<span class="hamburgerMenu" id="btn">&#9776;</span>
+<div id="modal" class="modal">
+  <div onclick="anchorClick()" class="modal-content">
+    <span class="close">&times;</span>
+    <a onclick="anchorClick()" href="#about">
+        <h1 class="topNavElement">About</h1>
+    </a>
+    <br>
+    <a href="#events">
+        <h1>Events</h1>
+    </a>
+    <br>
+    <a href="#portfolios">
+        <h1>Portfolios</h1>
+    </a>
+    <br>
+    <a href="https://scadstartup.club/">
+        <h1>StartUp</h1>
+    </a>
+    <br>
+    <a href="#contact">
+        <h1>Contact</h1>
+    </a>
+  </div>
+</div>
+
+
+
+ <!-- Nav -->
+ <nav style="padding:0;" class="navContent">
+   <div class="nav">
+      <img src="./assets/img/fluxLogo2.svg" class="fluxLogo" alt="flux logo">
+      <a style="margin-left: 40px;font-weight:600" href="/">About</a>
+      <a style="font-weight:600" href="#events">Events</a>
+      <a style="font-weight:600" href="#portfolios">Portfolios</a>
+      <a style="font-weight:600" target="_blank" href="http://scadstartup.club">StartUp</a>
+      <a style="font-weight:600" href="#contact">Contact</a>
+      <div class="rightAlign">
+        <!--mail logo-->
+        <a target="_blank" href="mailto:scadflux@gmail.com">
+          <img src="./assets/img/mail.svg" alt="">
+          </a>
+            <!--youtube logo-->
+        <a target="_blank" href="https://www.youtube.com/channel/UCfV2mrrcz9qdCyEcDEbmSWA">
+          <img src="./assets/img/youtube.svg" alt="">
+          </a>
+          <!--instagram logo-->
+          <a target="_blank" href="http://instagram.com/scadflux">
+            <img src="./assets/img/instagram.svg" alt="">
+          </a>
+
+          <!-- medium logo -->
+          <a target="_blank" href="https://medium.com/scadflux">
+            <img src="./assets/img/medium.svg" alt="">
+          </a>
+
+          <!--facebook logo-->
+          <a target="_blank" href="https://www.facebook.com/scadflux/">
+            <img src="./assets/img/facebook.svg" alt="">
+          </a>
+        </div>
+
+  </div>
+    </nav>
+
+
+
+
+<!-- Home/hero-->
+<section id="hero" class="wrapper hero">
+  <div class="hero-background">
+    <div class="hero-container">
+      <img src="./assets/img/blue-circle.svg" class="blue-circle lax" data-lax-preset="linger" alt="">
+      <img src="./assets/img/pink-triangle.svg" class="pink-triangle lax" data-lax-preset="linger" alt="">
+        <img src="./assets/img/fluxLogo2.svg" class="heroFlux" alt="">
+        <h2 class="">We’re the Future Leaders of <br>User Experience Design</h2>
+        <h4>A student-run organization from<br> The Savannah College of Art and Design</h4>
+       <!-- <a target="_blank" href="https://forms.gle/K8gHKYvfEFrx81sC8">
+          <button style="color: #1B5BF5;" class="fluxButton top">Submit Medium Article</button>
+        </a> 
+        <a target="_blank" href="#fluxathon-winners">
+          <button style="color: #1B5BF5;" class="fluxButton">FLUXathon Winners</button>
+        </a>  -->
+        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScXrqS7Dq6mSjjMBa88UJjzKMxSefqbpfEuFNLxGUYxjX1byg/viewform">
+          <button style="color: #1B5BF5;" class="fluxButton">Google Panel Signup</button>
+        </a> 
+    </div>
+    <div class="scrollDown">
+      <h4 style="bottom:5px">Learn more</h4>
+      <img style="bottom:8px" class="downArrow" src="./assets/img/downArrow.svg" alt="down arrow">
+    </div>
+  </div>
+</section>
+
+
+
+<!-- calendarEvent Schedule -->
+
+  <section id="events">
+    <div class="wrapper featuredText">
+      <h3>Get involved with FLUX!</h3>
+      <h5 style="display: inline-block" class="eventDesc">FLUX is the User Experience (UX) Design club at SCAD. Our mission is to equip students of all majors with the skills and knowledge to be able to research, impact, and create for the world we live in. FLUX aims to provide members the opportunity to grow and learn outside of their courses through workshops, lectures, design sprints, and a strong collaborative community.</h5>
+      <a class="calendarButton button-hover" target="_blank" href="https://calendar.google.com/calendar/b/1/r?cid=YTk1MjZkMmwyYXEzNjluc3E4MjFiMWV2dWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">Add FLUX calendar</a>
+    </div>
+  </section>
+
+  <section class="wrapper card-container eventSection">
+    <div class="locationBar">
+      <div class="locationBarLocations">
+        <a href="#">FLUX Workshops</a>
+      </div>
+      <div class="locationBarDiv"></div>
+    </div>
+    <div class="card-holder">
+
+        <div class="calendarEvent" href="/">
+          <img src="../assets/img/spring/xd.png" alt="figma1">
+          <div class="new-card">
+            <h4>Intro to Adobe XD</h4>
+            <h5>Taking your first UX class? Adobe XD is a great tool to start learning wireframing & prototyping. Join us and learn the basics to Adobe XD! </h5>
+            <h5 style="color: #316EFF; font-weight: 700;">
+              <a target="_blank" style="color: #316EFF; font-weight: 700;" href="https://www.youtube.com/watch?v=WRsaefzi7qw&feature=youtu.be">
+               Watch here!         
+            </a>
+            </h5> 
+          </div>
+        </div>
+
+        <div class="calendarEvent" href="/">
+          <img src="../assets/img/spring/screens.png" alt="figma2">
+          <div class="new-card">
+            <h4>Designing for Screens</h4>
+            <h5>What are the differences between designing for print and screen? Learn tips & industry standards for designing for screens.</h5>
+            <h5 style="color: #316EFF; font-weight: 700;">
+              <a target="_blank" style="color: #316EFF; font-weight: 700;" href="https://us02web.zoom.us/j/84098110308">
+                Join here!          
+            </a>
+            </h5> 
+          </div>
+        </div>
+
+        <!-- <div class="calendarEvent" href="/">
+          <img src="../assets/img/spring/manage.png" alt="figma2">
+          <div class="new-card">
+            <h4>Managing your first project</h4>
+            <h5>
+              10-week long UX projects with deliverables can be overwhelming, learn to manage time and work for team projects!
+            </h5>
+             <h5 style="color: #316EFF; font-weight: 700;">
+              Coming Soon!
+            </h5> 
+          </div>
+        </div> -->
+
+      </div>
+
+      <div class="locationBar flux-resources">
+        <div class="locationBarLocations">
+          <a href="#">FLUX Resources</a>
+        </div>
+        <div class="locationBarDiv"></div>
+      </div>
+
+      <div class="card-holder">
+
+
+
+        <div class="calendarEvent" href="/">
+          <img src="../assets/img/spring/discord.png" alt="figma2">
+          <div class="new-card">
+            <h4>Join the FLUX Discord!</h4>
+            <h5>
+              We have a Discord! Join us for the latest FLUX updates, share cool ideas, meet new people, and have fun!
+              </h5>
+                 <h5 style="color: #316EFF; font-weight: 700;">
+                  <a target="_blank" style="color: #316EFF; font-weight: 700;" href="https://discord.gg/HRBg4V6">
+                    Join the Discord here          
+                </a>
+                </h5> 
+          </div>
+        </div>
+
+        <div class="calendarEvent" href="/">
+          <img src="../assets/img/spring/mentor.png" alt="figma2">
+          <div class="new-card">
+            <h4>Mentor / Mentee Program</h4>
+            <h5>
+              Our mentorship program is still happening this quarter! Stay tuned in our Discord or Instagram for the latest updates!
+            </h5>
+          </h5>
+          <h5 style="color: #316EFF; font-weight: 700;">
+           <a target="_blank" style="color: #316EFF; font-weight: 700; pointer-events: none;" href="">
+           More info coming soon!          
+         </a>
+         </h5> 
+          </div>
+        </div>
+
+        <div class="calendarEvent" href="/">
+          <img src="../assets/img/spring/medium.png" alt="figma2">
+          <div class="new-card">
+            <h4>FLUX Medium Publication</h4>
+            <h5>
+              FLUX will be publishing medium articles to help support you through these turbulent times! Want to write or submit an article? Let us know!
+              </h5>
+                 <h5 style="color: #316EFF; font-weight: 700;">
+                  <a  target="_blank" style="color: #316EFF; font-weight: 700;" href="https://medium.com/scadflux">
+                    View FLUX Medium          
+                </a>
+                </h5> 
+          </div>
+        </div>
+
+        <!-- <div class="calendarEvent" href="/">
+          <img src="../assets/img/spring/tutoring.png" alt="figma2">
+          <div class="new-card">
+            <h4>UX Design Tutoring</h4>
+            <h5>
+              Need help clarifying assignments or peer feedback on your projects? Talk to experienced students today!
+              </h5>
+                 <h5 style="color: #316EFF; font-weight: 700;">
+                  <a target="_blank" style="color: #316EFF; font-weight: 700;" href="https://medium.com/scadflux">
+                    https://medium.com/scadflux          
+                </a>
+                </h5> 
+          </div>
+        </div> -->
+
+        <div class="calendarEvent" href="/">
+          <div class="email-card">
+            <h4>Want to know more?</h4>
+            <h5>
+              Sign up for our weekly newsletter for the latest FLUX updates.
+              </h5>
+
+                <!-- Email form:
+            right now, all submited inputs go to:
+            https://docs.google.com/spreadsheets/d/1a3E6WBWbDIQ1jLE3fcq9EOyy02O6ZEfunR6KdcJbroM/edit?usp=sharing
+            -->
+
+            <form id="email-form">
+              <div class="input-container">
+                <input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required id="emailField" type="email" autocomplete="off" name="emails_from_input" class="email-input" placeholder="SCAD Email address">
+              </div>
+              <div>
+                <button type="submit" class="email-submit button-hover" id="submit-form">Register</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+  </section>
+
+  <!--Portfolio Section-->
+  <div class="portfolioContainer">
+  <section id="portfolios" style="margin-top: 200px" id="portfolios">
+      <div class="wrapper featuredText">
+        <h3>FLUX Community</h3>
+        <h5 class="eventDesc" style="display: inline-block">FLUX exists to foster a community of leaders and problem-solvers through UX Design. Check out some of the work from some of our members, and feel free to submit yours as well! Portfolio submissions are open to all members of the FLUX community, regardless of major. </h5>
+        
+        <div class="buttonsContainer">
+          <!-- view all button-->
+          <!-- <a style="margin-bottom:10px;" class="portfolioButton button-hover" onClick="portfolioViewMore()">View all</a> -->
+          
+          <a class="portfolioButton button-hover" target="_blank" href=" https://forms.gle/yWsHoe31ukFCH4Nq9">Submit your portfolio</a></div>
+      </div>
+    </section>
+
+    <div class="wrapper portfolioBarDiv"></div>
+
+
+  <section class="wrapper portfolioGrid">
+    <div class="portfolioCards">
+      <a class="person card-display-shown" href="http://h-tran.com" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Henry Tran</h4>
+        <h5>UX Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/henry.png" alt="danesFace">
+      </div>
+      </a>
+      <a class="person card-display-shown" href="http://famandiaye.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Fama Ndiaye</h4>
+        <h5>Experience Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/fama.png" alt="danesFace">
+      </div>
+      </a>
+      <a class="person card-display-shown" href="https://ericflattdesign.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Eric Flatt</h4>
+        <h5>UX and Visual Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/eric.png" alt="danesFace">
+      </div>
+      </a>
+      <a class="person card-display-shown" href="https://nataliamcelrath.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Natalia McElrath</h4>
+        <h5>Creative Technologist</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/natalia.png" alt="danesFace">
+      </div>
+      </a>
+      <a class="person card-display-shown" href="http://mikaylakim.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Mikayla Kim</h4>
+        <h5>UX Designer and Strategist</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/mikayla.png" alt="danesFace">
+      </div>
+      </a>
+      <a class="person card-display-shown" href="https://www.webereika.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Eika Weber</h4>
+        <h5>UX Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/eika.png" alt="danesFace">
+      </div>
+      </a>
+      <a class="person card-display-shown" href="https://www.wyattmichel.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Wyatt Michel</h4>
+        <h5>UX Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/wyatt.png" alt="danesFace">
+      </div>
+      </a>
+      <a class="person card-display-shown" href="http://charliebowles.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Charlie Bowles</h4>
+        <h5>UX Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/charlie.png" alt="danesFace">
+      </div>
+      </a>
+
+      <a class="person card-display-shown" href="http://jessicaawheeler.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Jessica Wheeler</h4>
+        <h5>UX Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/jessica.png" alt="danesFace">
+      </div>
+      </a>
+
+      <a class="person card-display-shown" href="http://hagarbaruchdesign.com" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Hagar Baruch</h4>
+        <h5>UX Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/hagar.png" alt="danesFace">
+      </div>
+      </a>
+
+      <a class="person card-display-shown" href="http://jasmineattanasioux.myportfolio.com" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Jazz Attanasio</h4>
+        <h5>UX / UI designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/jazz.png" alt="danesFace">
+      </div>
+      </a>
+
+      <a class="person card-display-shown" href="https://danegalbraith.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Dane Galbraith</h4>
+        <h5>Visual and UX Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/dane.png" alt="danesFace">
+      </div>
+      </a>
+
+
+
+      <a class="person card-display-shown" href="http://jenamartin.io" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Jena Martin</h4>
+        <h5>UX Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/jena.png" alt="danesFace">
+      </div>
+      </a>
+
+      <a class="person card-display-shown" href="http://connellymorris.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Connelly Morris</h4>
+        <h5>UX Research Strategist</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/elly.png" alt="danesFace">
+      </div>
+      </a>
+      
+      <a class="person card-display-shown" href="https://dallinhiggins.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Dallin Higgins</h4>
+        <h5>Creative Technologist</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/dallin.png" alt="danesFace">
+      </div>
+      </a>
+      <a class="person card-display-shown" href="http://ndrewgood.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Andrew Goodridge</h4>
+        <h5>UX Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/andrew.png" alt="danesFace">
+      </div>
+      </a>
+      <a class="person card-display-shown" href="https://www.nicolaspellegrino.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Nicolas Pellegrino</h4>
+        <h5>Interaction Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/nic.png" alt="danesFace">
+      </div>
+      </a>
+
+      <a class="person card-display-shown" href="https://chrisfeliciano.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Chris Feliciano</h4>
+        <h5>Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/chris.png" alt="danesFace">
+      </div>
+      </a>
+      <a class="person card-display-shown" href="https://www.sarahbeth.design/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Sarah Doncals</h4>
+        <h5>Interaction Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/sarah.png" alt="danesFace">
+      </div>
+      </a>
+      <a class="person card-display-shown" href="https://cheriechungux.com" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Cherie Chung</h4>
+        <h5>UX Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/cherie.png" alt="danesFace">
+      </div>
+      </a>
+
+
+      <a class="person card-display-shown" href="https://www.savannahwilkinson.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Savannah Wilkinson</h4>
+        <h5>UX Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/savannah.png" alt="danesFace">
+      </div>
+      </a>
+      <a class="person card-display-shown" href="https://angelamartin.myportfolio.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Angela Martin</h4>
+        <h5>UX Designer and Researcher</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/angela.png" alt="danesFace">
+      </div>
+      </a>
+
+      <a class="person card-display-shown" href="https://geethikasimhadri.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Geethika Simhadri</h4>
+        <h5>UX and Graphic Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/geethika.png" alt="danesFace">
+      </div>
+      </a>
+
+      <a class="person card-display-shown" href="https://www.kajalboghara.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Kajal Boghara</h4>
+        <h5>Visual and UX Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/kajal.png" alt="danesFace">
+      </div>
+      </a>
+
+      <a class="person card-display-shown" href="http://tuckerhemphill.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Tucker Hemphill</h4>
+        <h5>UX / Product Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/tucker.png" alt="danesFace">
+      </div>
+      </a>
+
+      <a class="person card-display-shown" href="http://graeme.fyi/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Graeme Smith</h4>
+        <h5>UX Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/graeme.png" alt="danesFace">
+      </div>
+      </a>
+
+      <a class="person card-display-shown" href="https://www.jackiensabillon.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Jackie Sabillon</h4>
+        <h5>Interaction Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/jackie.png" alt="danesFace">
+      </div>
+      </a>
+
+      <a class="person card-display-shown" href="https://www.zachrapradipta.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Zachra Pradipta</h4>
+        <h5>UX Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/zachra.png" alt="danesFace">
+      </div>
+      </a>
+
+      <a class="person card-display-shown" href="http://seungpil-lee.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Seungpil Lee</h4>
+        <h5>UX Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/seungpil.png" alt="danesFace">
+      </div>
+      </a>
+
+      <a class="person card-display-shown" href="https://www.jenn.io/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Jenn Lee</h4>
+        <h5>UX Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/jenn.png" alt="danesFace">
+      </div>
+      </a>
+
+      <a class="person card-display-shown" href="https://www.josephsmithjt.com/" target="_blank">
+        <div class="card">
+          <div class="cardText">
+        <h4>Joseph Smith</h4>
+        <h5>UX / Interaction Designer</h5>
+      </div>
+        <img class="portfolioFace" src="./assets/img/portfolioPics/joseph.png" alt="danesFace">
+      </div>
+      </a>
+
+    </div>
+
+  </section>
+
+  </div>
+
+<!-- fluxathon winners -->
+
+<section id="fluxathon-winners" class="fluxathon-winners">
+  <div class="wrapper featuredText">
+    <h3>FLUXathon Spring 2020 Winners</h3>
+    <hr>
+  </div>
+  
+  <div class=" wrapper slider-container">
+    <div class="clicker" onclick="plusSlides(-1)">
+      <img src="../assets/img/left-arrow.png" alt="left arrow" class="slider-arrows">
+    </div>
+    
+    <div class="slider-object fade" id="first">
+      <div class="slider-img">
+        <div class="clicker" onclick="plusSlides(-1)">
+          <img src="../assets/img/left-arrow.png" alt="left arrow" class="slider-arrows">
+        </div>
+        <img class="slider-image" src="../assets/img/fluxathonWinners/netflix.jpeg" alt="">
+        <div class="clicker" onclick="plusSlides(1)">
+          <img src="../assets/img/right-arrow.png" alt="right arrow" class="slider-arrows">
+        </div>
+      </div>
+      <div class="slider-text">
+        <h4>First Place - Netflix</h4>
+        <h5>Our first place winners took a look at an app we all use far too much, Netflix. One of their highest praises from the judges was that they didn't redesign the entire interface, they took a look at a few key pain points and honed in on making the app more usable. Combined with their new product, the Netflix Beem, the Netflix Team created a great new binge-watching experience!</h5>
+      </div>
+    </div>
+
+    <div class="slider-object fade" id="second">
+      <div class="slider-img">
+        <div class="clicker" onclick="plusSlides(-1)">
+          <img src="../assets/img/left-arrow.png" alt="left arrow" class="slider-arrows">
+        </div>
+        <img class="slider-image" src="../assets/img/fluxathonWinners/wikipedia.jpeg" alt="">
+        <div class="clicker" onclick="plusSlides(1)">
+          <img src="../assets/img/right-arrow.png" alt="right arrow" class="slider-arrows">
+        </div>
+      </div>
+      <div class="slider-text">
+        <h4>Second Place - Wikipedia</h4>
+        <h5>Our Second Place team took a look at a website everyone loves to hate, Wikipedia. They completely rehauled it's design, making it much more user-friendly, as well as pleasing to look at. They re-organized the hierarchy of information, and included a profile function for better policing of article editing. Over, the Wikipedia team created a more cohesive and easily understandable information giant.</h5>
+      </div>
+    </div>
+
+    <div class="slider-object fade" id="third">
+      <div class="slider-img">
+        <div class="clicker" onclick="plusSlides(-1)">
+          <img src="../assets/img/left-arrow.png" alt="left arrow" class="slider-arrows">
+        </div>
+        <img class="slider-image" src="../assets/img/fluxathonWinners/drinkingBuddy.jpeg" alt="">
+        <div class="clicker" onclick="plusSlides(1)">
+          <img src="../assets/img/right-arrow.png" alt="right arrow" class="slider-arrows">
+        </div>
+      </div>
+      <div class="slider-text">
+        <h4>Third Place - Drinking Buddies</h4>
+        <h5>Our third place winners went a different route, and chose to redesign an experience! Instead of marking your number of drinks in a night on your wrist, they created a simple Apple Watch App interface to help count for you! They created this feature, along with several others, including different assigned labels and rideshare options to optimize your experience.</h5>
+      </div>
+    </div>
+
+    <div class="clicker" onclick="plusSlides(1)">
+        <img src="../assets/img/right-arrow.png" alt="right arrow" class="slider-arrows">
+    </div>
+  </div>
+
+</section>
+
+<!-- new footer -->
+
+<section id="footer" class="new-footer">
+  <!--mail logo-->
+  <a target="_blank" href="mailto:scadflux@gmail.com">
+    <img src="./assets/img/mail-black.svg" alt="">
+  </a>
+
+  <!--instagram logo-->
+  <a target="_blank" href="http://instagram.com/scadflux">
+    <img src="./assets/img/instagram-black.svg" alt="">
+  </a>
+
+  <!-- medium logo -->
+  <a target="_blank" href="https://medium.com/scadflux">
+    <img src="./assets/img/medium-black.svg" alt="">
+  </a>
+
+  <!--facebook logo-->
+  <a target="_blank" href="https://www.facebook.com/scadflux/">
+    <img src="./assets/img/facebook-black.svg" alt="">
+  </a>
+
+  </div>
+</section>
+
+<!-- old footer -->
+
+<!--
+<section id="contact">
+  <div class="wrapper signup">
+    <div class="formCentered">
+    <h2>Want to know more?</h2>
+    <h4>Sign up for our weekly newsletter for the latest FLUX updates</h4>
+
+      <h5 class="emailLink">
+        <a class="emailLink" href="mailto:dgalbr20@student.scad.edu">Or, email us directly</a>
+      </h5>
+    -->
+
+
+    <!-- Email form:
+            right now, all submited inputs go to:
+            https://docs.google.com/spreadsheets/d/1a3E6WBWbDIQ1jLE3fcq9EOyy02O6ZEfunR6KdcJbroM/edit?usp=sharing
+    -->
+    <!--
+    <form id="email-form">
+
+    <div class="input-container">
+      <input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required id="emailField" type="email" autocomplete="off" name="emails_from_input" class="email-input" placeholder="SCAD Email address">
+    </div>
+    <div>
+      <button type="submit" class="email-submit" id="submit-form">Register</button>
+    </div>
+  </form>
+
+  </div>
+  </div>
+</section>
+-->
+
+
+
+
+
+<!-- lax js initializing -->
+<script>
+  window.onload = function() {
+	lax.setup() // init
+
+	const updateLax = () => {
+		lax.update(window.scrollY)
+		window.requestAnimationFrame(updateLax)
+	}
+
+	window.requestAnimationFrame(updateLax)
+}
+</script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBfCi2B9IPU6VhfgI7ckBlNG62iFw5c0-Y",
+    authDomain: "fluxsite-d183e.firebaseapp.com",
+    databaseURL: "https://fluxsite-d183e.firebaseio.com",
+    projectId: "fluxsite-d183e",
+    storageBucket: "fluxsite-d183e.appspot.com",
+    messagingSenderId: "1058381565188",
+    appId: "1:1058381565188:web:07a07f86627e7a0ce95451",
+    measurementId: "G-TRHJW2FMFS"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/app.js"></script> 
+</body>
+</html>
