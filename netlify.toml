@@ -1,9 +1,3 @@
-# example netlify.toml
 [build]
-command='npm run build'
-publish='public'
-functions='functions'
-
-[build.environment]
-EXAMPLE_ONE = "one"
-EXAMPLE_TWO = "two"
+  functions = "functions"
+  publish = "public"
